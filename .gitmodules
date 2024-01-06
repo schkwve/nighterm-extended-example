@@ -1,0 +1,3 @@
+[submodule "src/nighterm-extended"]
+	path = src/nighterm-extended
+	url = https://github.com/schkwve/nighterm-extended
