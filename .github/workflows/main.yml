@@ -3,22 +3,22 @@ name: Build and Upload ISO
 on:
   push:
     branches:
-      - trunk  # adjust branch name as needed
+      - trunk
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # using Ubuntu as an example, adjust as needed
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Install Dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y make xorriso qemu
-          # For macOS only
-          # brew install x86_64-elf-gcc x86_64-elf-ld
 
       - name: Build ISO
         run: make all
