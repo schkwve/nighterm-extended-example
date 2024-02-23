@@ -16,7 +16,7 @@ jobs:
       - name: Install Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y make xorriso qemu-system-x86_64
+          sudo apt-get install -y make xorriso qemu
           # For macOS only
           # brew install x86_64-elf-gcc x86_64-elf-ld
 
