@@ -3,7 +3,7 @@ name: Build and Upload ISO
 on:
   push:
     branches:
-      - main  # adjust branch name as needed
+      - trunk  # adjust branch name as needed
 
 jobs:
   build:
