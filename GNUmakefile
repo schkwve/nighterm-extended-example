@@ -116,7 +116,7 @@ all: bin/$(KERNEL) $(IMAGE_NAME).iso
 
 .PHONY: run
 run: $(IMAGE_NAME).iso
-	qemu-system-x86_64 -M q35 -m 2G -cdrom $(IMAGE_NAME).iso -boot d
+	qemu-system-x86_64 -M q35 -cdrom $(IMAGE_NAME).iso -boot d
 
 limine:
 	git clone https://github.com/limine-bootloader/limine.git --branch=v6.x-branch-binary --depth=1
