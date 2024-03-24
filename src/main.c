@@ -99,8 +99,7 @@ void _start(void)
             framebuffer->height,
             framebuffer->pitch,
             framebuffer->bpp,
-            NULL,
-	    NULL);
+            NULL, NULL);
 
     char *long_string = "Hello. This is a very very long string. If Nighterm is working correctly, this text should span across multiple lines. "
                         "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ01234567890123456789\n"
