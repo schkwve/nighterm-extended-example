@@ -1,6 +1,6 @@
 # Nighterm EXtended Example
 
-![Nightmare EXtended](img/screenshot_240324.png)
+![Nightmare EXtended](img/screenshot_24032024.png)
 
 ## Dependencies
 
