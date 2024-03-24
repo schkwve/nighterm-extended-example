@@ -24,7 +24,7 @@ jobs:
         run: make all
 
       - name: Upload ISO Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
-          name: template.iso
-          path: template.iso
+          name: nex_test.iso
+          path: nex_test.iso
