@@ -1,6 +1,6 @@
-# Nighterm Extended Example
+# Nighterm EXtended Example
 
-This repository demonstrates basic usage of Nighterm in a simple kernel.
+![Nightmare EXtended](img/screenshot_240324.png)
 
 ## Dependencies
 
