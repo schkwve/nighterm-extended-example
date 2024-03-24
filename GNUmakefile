@@ -1,7 +1,7 @@
 # Nuke built-in rules and variables.
 override MAKEFLAGS += -rR
 
-override IMAGE_NAME := template
+override IMAGE_NAME := nex_test
 
 # This is the name that our final kernel executable will have.
 # Change as needed.
