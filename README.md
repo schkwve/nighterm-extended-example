@@ -1,17 +1,7 @@
-# Nighterm EXtended Example
+# NEx Example
 
 ![Nightmare EXtended](img/screenshot_24032024.png)
 
-## Dependencies
+This repository demonstrates what NEx can do, as well as showcases its API.
 
-- `make` / `gmake`
-- `xorriso`
-- `qemu-system-x86_64`
-- `x86_64-elf-gcc` (macOS only)
-- `x86_64-elf-ld` (macOS only)
-
-## Building and Running
-
-Running `make all` will compile the kernel (from the `kernel/` directory) and then generate a bootable ISO image.
-
-Running `make run` will build the kernel and a bootable ISO (equivalent to make all) and then run it using `qemu` (if installed).
+You can grab the latest ISO build [here](https://nightly.link/schkwve/nighterm-extended-example/workflows/main/trunk/nex_test.iso.zip).
